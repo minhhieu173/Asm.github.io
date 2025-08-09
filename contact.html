@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Liên hệ - Laptop Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Laptop Shop</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Liên hệ</a>
+      <a href="cart.html">Giỏ hàng (<span id="cart-count">0</span>)</a>
+      <a id="auth-link-2" href="login.html">Đăng nhập</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Liên hệ với chúng tôi</h2>
+    <form id="contact-form">
+      <label>Tên<br><input type="text" id="contact-name" required></label>
+      <label>Email<br><input type="email" id="contact-email" required></label>
+      <label>Nội dung<br><textarea id="contact-message" rows="6" required></textarea></label>
+      <button type="submit">Gửi</button>
+    </form>
+    <p id="contact-result" class="success"></p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Laptop Shop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

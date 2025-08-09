@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Đăng nhập - Laptop Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Laptop Shop</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Đăng nhập</h2>
+    <form id="login-form">
+      <label>Email<br><input type="email" id="login-email" required></label>
+      <label>Mật khẩu<br><input type="password" id="login-password" required></label>
+      <button type="submit">Đăng nhập</button>
+    </form>
+    <p>Chưa có tài khoản? <a href="register.html">Đăng ký</a></p>
+    <p id="login-error" class="error"></p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Laptop Shop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Đăng ký - Laptop Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Laptop Shop</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Đăng ký</h2>
+    <form id="register-form">
+      <label>Họ tên<br>
+        <input type="text" id="reg-name" required>
+      </label>
+
+      <label>Email<br>
+        <input type="email" id="reg-email" required>
+      </label>
+      
+      <label>Số điện thoại<br>
+        <input type="tel" id="reg-phone" pattern="[0-9]{10}" placeholder="Nhập 10 số" required>
+      </label>
+      
+      <label>Địa chỉ<br>
+        <input type="text" id="reg-address" required>
+      </label>
+      
+      <label>Mật khẩu<br>
+        <input type="password" id="reg-password" required>
+      </label>
+
+      <label>Xác nhận mật khẩu<br>
+        <input type="password" id="reg-password2" required>
+      </label>
+
+      <button type="submit">Đăng ký</button>
+    </form>
+    <p id="register-error" class="error"></p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Laptop Shop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
