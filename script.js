@@ -61,6 +61,7 @@ function renderProducts() {
   });
 }
 
+
 // Add to cart handler
 function addToCart(id) {
   const cart = JSON.parse(localStorage.getItem('cart') || '[]');
@@ -72,10 +73,10 @@ function addToCart(id) {
     alert('Đã thêm vào giỏ hàng');
   }
 }
-
 // Init
 renderProducts();
 updateCartCount();
+
 
 
 // Render cart page
